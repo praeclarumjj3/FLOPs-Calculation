@@ -117,6 +117,6 @@ Initializing params:
 
 if __name__ == '__main__':
 
-    flops_calc = FLOP(input_shape=(1, 3 ,300 ,300), filter_shape=(64 ,3 ,3 ,3), stride=1, padding=1, dilation_rate=0)
+    flops_calc = FLOP(input_shape=(256, 3 ,300 ,300), filter_shape=(64 ,3 ,3 ,3), stride=1, padding=1, dilation_rate=0)
 
     flops_calc.calculateFLOPs()

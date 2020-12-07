@@ -17,7 +17,7 @@ This repo contains the code for calculating **FLOPs (Floating-Point Operation)**
 https://github.com/praeclarumjj3/FLOPs-Calculation.git
 ```
 
-- Run the following command to see the sample result:
+- Run the following command to see the sample result for `batch_size = 256`:
 ```
 python FLOPs.py
 ```
